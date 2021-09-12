@@ -1,0 +1,83 @@
+<div class="row">
+<div class="col-12">
+<div class="card">
+<div class="card-body">
+<h4 class="card-title">Agendar cita</h4>
+<h6 class="card-subtitle"></h6>
+<button type="button" class="btn btn-rounded btn-success" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo" style="float: right;">Nueva cita</button>
+
+<div class="table-responsive">
+<table id="demo-foo-addrow" class="table m-t-30 table-hover contact-list" data-page-size="10">
+<thead class="table-success">
+<tr>
+<th>Id</th>
+<th>Nombre del paciente</th>
+<th>Fecha de cita</th>
+<th>Acciones</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Manuel Rojas</td>
+<td>23 de noviembre</td>
+<td>
+  <a href="#" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse m-r-10"></i> </a>
+  <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-close text-danger m-r-10"></i> </a>
+  <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-ban text-dark"></i> </a>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Sayuri Morales</td>
+<td>23 de noviembre</td>
+<td>
+  <a href="#" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse m-r-10"></i> </a>
+  <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-close text-danger m-r-10"></i> </a>
+  <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-ban text-dark"></i> </a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1">
+  <div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+  <h4 class="modal-title" id="exampleModalLabel1">Agendar nueva cita</h4>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+</div>
+<div class="modal-body">
+  <form action="#" class="form-horizontal form-bordered">
+  <div  class="form-group form-check">
+<label for="start" class="control-label text-right col-md-7">Fecha de nacimiento</label>
+<input type="date" id="start" name="trip-start"
+ value="2020-12-08"
+ min="2019-01-01" max="2026-12-31">
+</div>
+
+<div class="form-group row">
+<label class="control-label text-right col-md-3">Nombre del paciente</label>
+<div class="col-md-9">
+<select class="form-control custom-select">
+<option value="">Carlos Escalante Morales</option>
+<option value="">Luis Salmeron Montero</option>
+</select>
+</div>
+</div>
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-rounded btn-danger m-r-10" data-dismiss="modal">Cancelar</button>
+  <button type="button" class="btn btn-rounded btn-success">Guardar</button>
+</div>
+</div>
+  </div>
+</div>

@@ -1,0 +1,249 @@
+<!-- Row -->
+<div class="row">
+  <!-- Column -->
+  <div class="col-lg-4 col-xlg-3 col-md-5">
+    <div class="card">
+    <div class="card-body">
+     <div class="m-t-30" > <img src="../../../assets/images/avatar.jpeg" class="img-circle mx-auto d-block" width="150" />
+    <h4 class="card-title m-t-10">Moises Martinez</h4>
+    <h6 class="card-subtitle">Admin de la pagina</h6>
+     </div>
+    </div>
+    <div>
+     <hr> </div>
+    <div class="card-body"> <small class="text-muted">Correo</small>
+     <h6>mmoises591@gmail.com</h6>
+
+     <div class="map-box">
+     </div>
+    </div>
+    </div>
+    </div>
+  <!-- Column -->
+  <!-- Column -->
+  <div class="col-lg-8 col-xlg-9 col-md-7">
+  <div class="card">
+   <!-- Nav tabs -->
+   <ul class="nav nav-tabs profile-tab" role="tablist">
+  <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Recetas</a> </li>
+  <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Dietas</a> </li>
+  <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#notas" role="tab">Notas</a> </li>
+  <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#expediente" role="tab">Expediente</a> </li>
+  
+   </ul>
+   <!-- Tab panes -->
+   <div class="tab-content">
+  <div class="tab-pane active" id="home" role="tabpanel">
+    <div class="card-body">
+  <div class="profiletimeline">
+  <button type="button" class="btn btn-rounded btn-success" style="float: right;" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Nueva receta</button>
+  <hr>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1">
+    <div class="modal-dialog" role="document">
+  <div class="modal-content">
+  <div class="modal-header">
+  <h4 class="modal-title" id="exampleModalLabel1">Nueva receta</h4>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  </div>
+  <div class="modal-body">
+  <form>
+  <div  class="form-group form-check">
+  <label for="start">Fecha</label>
+  <input type="date" id="start" name="trip-start"
+  value="2018-07-22"
+  min="2018-01-01" max="2018-12-31">
+  </div>
+  <div class="form-group">
+  <label for="message-text" class="control-label">Receta:</label>
+  <textarea class="form-control" id="message-text1"></textarea>
+  </div>
+  </form>
+  </div>
+  <div class="modal-footer">
+  <button type="button" class="btn btn-rounded btn-danger m-r-10" data-dismiss="modal">Cancelar</button>
+  <button type="button" class="btn btn-rounded btn-success">Registrar</button>
+  </div>
+  </div>
+    </div>
+  </div>
+  <hr>
+  <div class="sl-item">
+  <div class="sl-left"> <img src="../assets/images/users/4.jpg" alt="user" class="img-circle" /> </div>
+  <div class="sl-right">
+  <div><a href="#" class="link">Doctor John</a> <span class="sl-date"></span>
+  <blockquote class="m-t-10">
+  Tomar los medicamentos recetados de la vez pasada.
+  </blockquote>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!--second tab-->
+  <div class="tab-pane" id="profile" role="tabpanel">
+    <div class="card-body">
+  <div class="profiletimeline">
+  <button type="button" class="btn btn-rounded btn-success" style="float: right;" data-toggle="modal" data-target="#exampleModal2" data-whatever="@getbootstrap">Nueva dieta</button>
+  <hr>
+  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1">
+    <div class="modal-dialog" role="document">
+  <div class="modal-content">
+  <div class="modal-header">
+  <h4 class="modal-title" id="exampleModalLabel1">Nueva dieta</h4>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  </div>
+  <div class="modal-body">
+  <form>
+  <div  class="form-group form-check">
+  <label for="start">Fecha</label>
+  <input type="date" id="start" name="trip-start"
+  value="2018-07-22"
+  min="2018-01-01" max="2018-12-31">
+  </div>
+  <div class="form-group">
+  <label for="message-text" class="control-label">Dieta:</label>
+  <textarea class="form-control" id="message-text1"></textarea>
+  </div>
+  </form>
+  </div>
+  <div class="modal-footer">
+  <button type="button" class="btn btn-rounded btn-danger m-r-10" data-dismiss="modal">Cancelar</button>
+  <button type="button" class="btn btn-rounded btn-success">Registrar</button>
+  </div>
+  </div>
+    </div>
+  </div>
+  <hr>
+  <div class="sl-item">
+  <div class="sl-left"> <img src="../assets/images/users/4.jpg" alt="user" class="img-circle" /> </div>
+  <div class="sl-right">
+  <div><a href="#" class="link">Doctor John</a> <span class="sl-date"></span>
+  <blockquote class="m-t-10">
+  Comer muchas verduras.
+  </blockquote>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!--Tercer tab-->
+  <div class="tab-pane" id="expediente" role="tabpanel">
+    <div class="card-body">
+  <div class="profiletimeline">
+  <!--Sesión de descarga de expediente-->
+  <div class="sl-item">
+  <div class="sl-right">
+    <blockquote class="m-t-10 text-center">
+      Expediente del 15 de noviembre del 2020
+      <br>
+      <div><button type="submit" class="btn btn-rounded btn-success mx-auto d-block"> <i class="fa fa-"></i>Abrir expediente</button><span class="sl-date"></span>
+      </div>
+      </blockquote>
+  </div>
+  <div class="sl-right">
+    <blockquote class="m-t-10 text-center">
+      Expediente del 18 de noviembre del 2020
+      <br>
+      <div><button type="submit" class="btn btn-rounded btn-success mx-auto d-block"> <i class="fa fa-"></i>Abrir expediente</button><span class="sl-date"></span>
+      </div>
+      </blockquote>
+  </div>
+  <div class="sl-right">
+    <blockquote class="m-t-10 text-center">
+      Expediente del 23 de noviembre del 2020
+      <br>
+      <div><button type="submit" class="btn btn-rounded btn-success mx-auto d-block"> <i class="fa fa-"></i>Abrir expediente</button><span class="sl-date"></span>
+      </div>
+      </blockquote>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  <!--Notas-->
+  <div class="tab-pane" id="notas" role="tabpanel">
+    <div class="card-body">
+
+<!-- .chat-row -->
+<div class="chat-main-box">
+    <!-- .chat-right-panel -->
+    
+        <div class="chat-main-header">
+            <div class="p-20 b-b">
+  <h3 class="box-title">Notas</h3>
+            </div>
+        </div>
+        <div class="chat-rbox">
+            <ul class="chat-list p-20">
+  <!--chat Row -->
+  <li>
+      <div class="chat-img"><img src="../assets/images/users/1.jpg" alt="user" /></div>
+      <div class="chat-content">
+          <h5>Roberto Vazquez</h5>
+          <div class="box bg-light-info">Tomar paracetamol cuando sienta molestias.</div>
+      </div>
+      <div class="chat-time">10:56 am</div>
+  </li>
+  <!--chat Row -->
+  <li>
+      <div class="chat-img"><img src="../assets/images/users/1.jpg" alt="user" /></div>
+      <div class="chat-content">
+          <h5>Roberto Vazquez</h5>
+          <div class="box bg-light-info">Y tomar antes de cada comida la suspensión.</div>
+      </div>
+      <div class="chat-time">10:57 am</div>
+  </li>
+  <!--chat Row -->
+  <li class="reverse">
+      <div class="chat-content">
+          <h5>Marcos Romero</h5>
+          <div class="box bg-light-inverse">Entendido Doctor.</div>
+      </div>
+      <div class="chat-img"><img src="../assets/images/users/5.jpg" alt="user" /></div>
+      <div class="chat-time">10:57 am</div>
+  </li>
+  <!--chat Row -->
+  <li class="reverse">
+      <div class="chat-content">
+          <h5>Marcos Romero</h5>
+          <div class="box bg-light-inverse">Muchas gracias.</div>
+      </div>
+      <div class="chat-img"><img src="../assets/images/users/5.jpg" alt="user" /></div>
+      <div class="chat-time">10:57 am</div>
+  </li>
+  <!--chat Row -->
+  <li>
+      <div class="chat-img"><img src="../assets/images/users/1.jpg" alt="user" /></div>
+      <div class="chat-content">
+          <h5>Roberto Vazquez</h5>
+          <div class="box bg-light-info">Estoy a sus ordenes</div>
+      </div>
+      <div class="chat-time">11:00 am</div>
+  </li>
+  <!--chat Row -->
+            </ul>
+        </div>
+        <div class="card-body b-t">
+            <div class="row">
+  <div class="col-8">
+      <textarea placeholder="Escribe tu nota aquí" class="form-control b-0"></textarea>
+  </div>
+  <div class="col-4 text-right">
+      <button type="button" class="btn btn-info btn-circle btn-lg"><i class="fa fa-paper-plane-o"></i> </button>
+    <!-- .chat-right-panel -->
+</div>
+<!-- /.chat-row -->
+          </div>
+      </div>
+  </div>
+  
+
+
+
+   </div>
+  </div>
+  <!-- Column -->
+  </div>
